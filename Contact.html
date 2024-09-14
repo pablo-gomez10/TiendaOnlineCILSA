@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodigoArgentino</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./Contact.css">
+    <link rel="icon" type="image/jpg" href="IMAGENES/codigo_favicon.png"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>CodigoArgentino</h1>
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="about.html">Quiénes Somos</a>
+            <a href="Contact.html">Contacto</a>
+            <a href="Cursos.html">Cursos</a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="consulta">
+            <h4> Envianos tu consulta </h4>
+            <form action="" class="registro_formulario" id="form">
+                <input class="controles" type="text"      name="usuario"        id="usuario"     placeholder="Nombre y Apellido" >
+                <input class="controles" type="email"     name="mail"           id="mail"        placeholder="Ingrese su email">
+                <p class="Condicion"> Debe ser un mail valido. </p>
+
+                <select class="controles" name="razon" placeholder="Seleccione una consulta">
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="ConsultaCursos">Consulta sobre los cursos</option>
+                    <option value="Error">Error encontrado</option>
+                    <option value="SolicitudInscripcion">Solicitud de Inscripción</option>
+                    <option value="DarmeDeBaja">Quiero darme de baja</option>
+                    <option value="OtroMotivo">Otro motivo</option>
+                </select>
+                <textarea class="controles" name="mensaje" id="mensaje"> </textarea>
+                <input class="botones"   type="submit"    name="EnviarConsulta"    id="submit" value="Enviar" >
+
+            </form>
+        </section>
+        <script src="JS/registrate.js"> </script>
+    </body>
+
+    <footer>
+        <p>Seguinos en nuestras redes </p>
+        <img src="IMAGENES/RedesSociales.png" alt="Redes Sociales" usemap="#RedesSocialesMap">
+        <map name="RedesSocialesMap">
+            <area shape="rect" coords="0,0,25.6,23.0" alt="Instagram" href="https://www.instagram.com">
+            <area shape="rect" coords="25.6,0,51.2,23.0" alt="Twitter" href="https://www.twitter.com">
+            <area shape="rect" coords="51.2,0,76.8,23.0" alt="Facebook" href="https://www.facebook.com">
+            <area shape="rect" coords="76.8,0,102.4,23.0" alt="Youtube" href="https://www.youtube.com">
+        </map>
+    </footer>
+    
+</body>
+
+</html>

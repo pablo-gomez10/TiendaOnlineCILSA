@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodigoArgentino</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="Registrarse.css">
+    <link rel="icon" type="image/jpg" href="IMAGENES/codigo_favicon.png"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>CodigoArgentino</h1>
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="about.html">Quiénes Somos</a>
+            <a href="Contact.html">Contacto</a>
+            <a href="Cursos.html">Cursos</a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="registro-cuenta">
+            <h4> Formulario de Cuenta </h4>
+
+            <form action="" class="registro_formulario" id="form">
+                <input class="controles" type="text"      name="usuario"        id="usuario"     placeholder="Nombre usuario" >
+                <p class="Condicion"> Debe tener como minimo 6 caracteres. </p>
+                
+                <input class="controles" type="password"  name="contra"         id="contra"      placeholder="Ingrese la password" >
+                <p class="Condicion"> Debe tener como minimo 8 caracteres. </p>
+                
+                <input class="controles" type="password"  name="recontra"       id="recontra"    placeholder="Ingrese la password nuevamente">
+                <p class="Condicion"> Debe ser igual a la password. </p>
+               
+                <input class="controles" type="email"     name="mail"           id="mail"        placeholder="Ingrese su email">
+                <p class="Condicion"> Debe ser un mail valido. </p>
+
+                <input class="botones"   type="submit"    name="crearcuenta"    id="submit" value="Crear Cuenta" >
+
+                
+            </form>
+        </section>
+        <script src="JS/registrate.js"> </script>
+    </body>
+
+    <footer>
+        <p>Seguinos en nuestras redes </p>
+        <img src="IMAGENES/RedesSociales.png" alt="Redes Sociales" usemap="#RedesSocialesMap">
+        <map name="RedesSocialesMap">
+            <area shape="rect" coords="0,0,25.6,23.0" alt="Instagram" href="https://www.instagram.com">
+            <area shape="rect" coords="25.6,0,51.2,23.0" alt="Twitter" href="https://www.twitter.com">
+            <area shape="rect" coords="51.2,0,76.8,23.0" alt="Facebook" href="https://www.facebook.com">
+            <area shape="rect" coords="76.8,0,102.4,23.0" alt="Youtube" href="https://www.youtube.com">
+        </map>
+    </footer>
+
+    <script src="registrate.js"> </script>
+
+</body>
+</html>

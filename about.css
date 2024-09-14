@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;      
+}
+
+.section-descripcion p{
+    font-size: 25px;  
+}
+
+.Titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(149, 38, 213);
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px 2px white;
+    font-size: 50px;
+
+    animation-duration: 2s;
+    animation-name: frase_en_movimiento;
+}
+
+@keyframes frase_en_movimiento{
+    from{
+      margin-top: 100%;
+    }
+    to{
+      margin-top: 0%;
+    }
+}
+
+.container1{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.Docente{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 30px;
+}
+
+.Docente h3{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(149, 38, 213);
+    text-shadow: 1px 1px 2px black;
+}
+
+.Docente h4{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+.Docente h5{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.Docente img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(144, 18, 144);;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: 0 0 20px white;
+
+    animation: Efecto_Desvanicimiento .5s infinite;
+}
+
+@keyframes Efecto_Desvanicimiento {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.8;
+    }
+}
+
+
+
+
+.Section-Sucursales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,52 @@
+.consulta{ /* Propiedades para el rectangulo principal */
+    width: 400px;
+    padding: 30px 30px 5px 30px;
+    margin: auto;
+    border: 2px solid rgb(149,38,213);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.consulta h4{ /* Propiedades solo al H4 */
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controles{ /* Propiedades a los INPUTS*/
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(149,38,213);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.Condicion{ /* Propiedades para las Condiciones */
+    text-align: left;
+    font-family: 'calibri';
+    font-size: 14px;
+    line-height: 40px;
+    color: grey;
+}
+
+.botones{
+    width:100%;
+    background: rgb(149,38,213);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.botones:hover{
+    background-color: rgb(197, 103, 251);
+}
+
+textarea{
+    text-align: center;
+    text-rendering: auto;
+    height: 100px;
+}
