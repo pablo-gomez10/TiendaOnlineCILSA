@@ -13,6 +13,7 @@
 }
 
 .controles{ /* Propiedades a los INPUTS*/
+    margin: 5px;
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -46,7 +47,8 @@
 }
 
 textarea{
-    text-align: center;
-    text-rendering: auto;
-    height: 100px;
+    padding: 10px;  /* Añade un poco de espacio interior para que el texto no toque el borde */
+    border: 2px solid #ccc;  /* Añade un borde gris claro */
+    border-radius: 4px;  /* Bordes redondeados */
+    width: 100%;  /* Ajusta el ancho del input */
 }

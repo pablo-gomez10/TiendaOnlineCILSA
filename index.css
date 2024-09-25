@@ -67,7 +67,7 @@ footer{
 }
 
 
-/* Edición del tamaño del logo del footer*/
+/* Edición del tamaño del logo del header*/
 
 .logotipo img {
     width: 300px; /* Ajusta el tamaño del logo */
@@ -79,22 +79,6 @@ footer{
 
 
 
-
-
-img{
-    /*width: 350px;
-    height: 350px;
-    margin-top:-100px;*/
-
-    width: 100%; /* Asegúrate de que las imágenes ocupen el ancho completo */
-    height: auto; /* Ajusta la altura automáticamente */
-    margin-top: 0; /* Elimina el margen negativo */
-
-
-
-}
-
-
 /*Banner color violeta (chica con gafas debajo del menú de navegaciçón*/
 
 .instituto{
@@ -102,9 +86,9 @@ img{
 
     display: inline-block;
     justify-content: center;
-    width: 100%; /* Cambia esto a 100% para que ocupe todo el ancho */
+    width: 100%; 
     height: 500px;
-    /* Elimina o ajusta este margen */
+ 
     margin-top: 0; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagenes/i2.png);
     background-size: cover;
@@ -144,19 +128,6 @@ img{
 
 
 
-
-.bu{
-
-    width: 20%;
-    height: 35px;
-    color: black;
-    background-color: blueviolet;
-    text-align: center;
-    border-radius: 5px 0 0 5px;
-    font-size: 1rem;
-    
-    
-}
 
 
 
@@ -221,25 +192,14 @@ img{
 
 
 
-
-
-
-
-
-
 /* Tamaño de las letras del menú de navegación*/
 .nav-link {
-    font-size: 20px !important ; /* Cambia el tamaño del texto en el menú principal */
+    font-size: 20px !important ; 
 }
 
 .dropdown-item {
-    font-size: 20px; /* Cambia el tamaño del texto en el menú desplegable */
+    font-size: 20px; 
 }
-
-
-
-
-
 
 
 
@@ -249,10 +209,6 @@ img{
     background-color: blueviolet;
     color: white !important;
 }
-
-
-
-
 
 
 
@@ -287,10 +243,6 @@ img{
     box-shadow: none !important; /* Quita la sombra azul */
    
 }
-
-
-
-
 
 
 

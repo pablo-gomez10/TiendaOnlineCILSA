@@ -15,23 +15,14 @@
 
 </head>
 <body>
-    <header>
-        <h1>CodigoArgentino</h1>
-        <nav>
-            <a href="Index.html">Home</a>
-            <a href="about.html">Quiénes Somos</a>
-            <a href="Contact.html">Contacto</a>
-            <a href="Cursos.html">Cursos</a>
-        </nav>
-    </header>
+
 
     <body>
         <section class="consulta">
             <h4> Envianos tu consulta </h4>
             <form action="" class="registro_formulario" id="form">
                 <input class="controles" type="text"      name="usuario"        id="usuario"     placeholder="Nombre y Apellido" >
-                <input class="controles" type="email"     name="mail"           id="mail"        placeholder="Ingrese su email">
-                <p class="Condicion"> Debe ser un mail valido. </p>
+                <input class="controles" type="email"     name="mail"           id="mail"        placeholder="Debe ser un mail valido.">
 
                 <select class="controles" name="razon" placeholder="Seleccione una consulta">
                     <option value="" disabled selected>Seleccione una opción</option>
@@ -41,6 +32,7 @@
                     <option value="DarmeDeBaja">Quiero darme de baja</option>
                     <option value="OtroMotivo">Otro motivo</option>
                 </select>
+                <label for="mensaje">Descripción:</label>
                 <textarea class="controles" name="mensaje" id="mensaje"> </textarea>
                 <input class="botones"   type="submit"    name="EnviarConsulta"    id="submit" value="Enviar" >
 
