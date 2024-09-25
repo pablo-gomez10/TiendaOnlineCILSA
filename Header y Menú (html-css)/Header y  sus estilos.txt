@@ -1,0 +1,40 @@
+Header con logo 
+
+
+HTML:
+<header>
+    <div class="logotipo">
+    <img src="imagenes/LOGO.png" alt="logo">
+    </div>
+</header>
+
+
+
+CSS:
+
+/*Logo del Header*/
+.logotipo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding: auto; 
+    height: 150px;
+    width: auto;
+    background-image:url(imagenes/dp.png)      
+}
+
+
+
+/* Edición del tamaño del logo del header*/
+
+.logotipo img {
+
+    width: 300px;
+    max-width: 100%; 
+    height: 290px;
+}
+
+
+

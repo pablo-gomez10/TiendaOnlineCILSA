@@ -1,0 +1,43 @@
+Botón flotante de whatsapp
+
+** HTML **
+
+
+<a href="https://wa.me/1234567890" class="whatsapp_float" target="_blank">
+          <img src="imagenes/WhatsApp_icon.png" alt="WhatsApp" />
+</a>
+
+
+
+
+
+** CSS **
+
+
+/*Enlace para usar el whatsapp*/
+
+.whatsapp_float {
+    position: fixed;
+    bottom: 20px;  
+    right: 20px;   
+    z-index: 1000; 
+}
+
+
+---------------------------------------------------------------------------------------
+
+.whatsapp_float img {
+    width: 60px;    
+    height: 60px;
+    border-radius: 50%;  
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease;  
+
+
+-------------------------------------------------------------------------------------
+
+
+.whatsapp_float img:hover {
+    transform: scale(1.1);  
+
+
