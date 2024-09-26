@@ -132,7 +132,7 @@ h2{
     margin-bottom: 20px;
     color: rgb(149, 38, 213);
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
     font-size: 50px;
 
     animation-duration: 2s;
@@ -179,15 +179,15 @@ h2{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid rgb(144, 18, 144);;
+    border: 5px solid blueviolet;;
     overflow: hidden;
     object-fit: cover;
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 
     animation: Efecto_Desvanicimiento .5s infinite;
 }
 
-@keyframes Efecto_Desvanicimiento {
+/*@keyframes Efecto_Desvanicimiento {
     from{
         opacity: 1;
     }
@@ -195,54 +195,40 @@ h2{
         opacity: 0.8;
     }
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 /* Estilo para el bloque "Nuestro equipo" */
 .container1 {
-    background-color: black;
+    background-color: rgb(185, 185, 185);
     padding: 50px 0; /* Espaciado superior e inferior */
     text-align: center;
 }
 
 .section-docente h2 {
-    color: white; /* Cambiar el color del título a blanco */
+    color: rgb(0, 0, 0); /* Cambiar el color del título a blanco */
 }
 
 .Docente h3, .Docente h4, .Docente h5 {
-    color: white; /* Cambiar los colores del texto a blanco para mejor legibilidad */
+    color: rgb(0, 0, 0); /* Cambiar los colores del texto a blanco para mejor legibilidad */
 }
 
 .Docente img {
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -257,9 +243,9 @@ h2{
     margin-bottom: 20px;
     color: rgb(149, 38, 213);
     font-family: 'Orbitron', sans-serif;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
     font-size: 50px;
-
+    
     animation-duration: 2s;
     animation-name: frase_en_movimiento;
 }
@@ -272,6 +258,10 @@ h2{
       margin-top: 0%;
     }
     }
+
+
+
+
 
 
 
@@ -308,6 +298,12 @@ footer {
     }
 }
 
+
+
+
+
+
+
 /* Redes sociales del Footer */
 .buttons {
     min-width: 700px;
@@ -331,4 +327,28 @@ footer {
 
 .buttons a:hover {
     transform: scale(1.2);
+}
+
+
+
+
+
+/*Enlace para usar el whatsapp*/
+.whatsapp_float {
+    position: fixed;
+    bottom: 20px;  /* Distancia desde la parte inferior */
+    right: 20px;   /* Distancia desde la parte derecha */
+    z-index: 1000; /* Asegura que el botón quede por encima de otros elementos */
+}
+
+.whatsapp_float img {
+    width: 60px;    /* Tamaño del icono */
+    height: 60px;
+    border-radius: 50%;  /* Hace que el ícono sea circular */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra */
+    transition: transform 0.3s ease;  /* Efecto suave al pasar el mouse */
+}
+
+.whatsapp_float img:hover {
+    transform: scale(1.1);  /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
 }
