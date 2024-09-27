@@ -11,3 +11,13 @@ Las imágenes deben tener texto alternativo (Accesibilidad)
 Diseño responsivo utilizando Bootstrap para garantizar una experiencia de usuario consistente en diferentes dispositivos y tamaños de pantalla.
 
 
+Tomamos como base el proyecto, que vende cursos y la adaptamos a la consigna
+categorizar los cursos y sus respectiva información de cada curso:
+   Ofimática: excel para económicas, Análisis de Datos en Power bi, 
+   Programación: rpa automatización con bots, programación en r, automatizacion excel con python, Power Apps 
+   Idiomas: Inglés básico para economicas, portugues para economicas
+   Análisis de Datos: data science, Python para Data, SQL
+   Gestión de proyectos: power apps para gestión de negocios, digital proyect manager y scrum
+
+En el index como se muestra esta la pag principal de los cursos con sus dos cursos de promocion
+En la parte de navegacion se encuentra su contenido de inicio, los cursos agrupados por categoria, quienes somos y el contacto y un acceso directo de busqueda de curso
