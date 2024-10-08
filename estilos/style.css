@@ -78,3 +78,8 @@
     margin-right: 10px;
   }
 
+  .img-size {
+    width: 200px; /* Ajusta a las dimensiones que prefieras */
+    height: 200px;
+    object-fit: cover; /* Esto mantiene las proporciones y evita que las imágenes se deformen */
+}

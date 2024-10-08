@@ -69,7 +69,7 @@ textarea{
     padding: auto; 
     height: 150px;
     width: auto;
-    background-image:url(imagenes/dp.png)      
+    background-image:url(/imagenes/dp.png)      
 }
 
 
@@ -167,12 +167,12 @@ textarea{
 
 
 /* Pie de página FOOTER */
-footer {
+.footer {
     padding: 100px;
     background-color: rgb(0, 0, 0);
     text-align: center;
     color: white;
-    background-image: url(imagenes/cel.png);
+    background-image: url(/imagenes/cel.png);
     background-repeat: no-repeat;
     background-position: -20%;
     width: 100%;

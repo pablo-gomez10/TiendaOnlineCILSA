@@ -5,7 +5,7 @@ footer{
     background-color: rgb(0, 0, 0);
     text-align: center;
     color: white;
-    background-image:url(imagenes/cel.png);
+    background-image:url(/imagenes/cel.png);
   
     background-repeat: no-repeat;
     background-position: -20%;
@@ -61,7 +61,7 @@ footer{
     padding: auto; 
     height: 150px;
     width: auto;
-    background-image:url(imagenes/dp.png)
+    background-image:url(/imagenes/dp.png)
     
    
 }
@@ -81,22 +81,21 @@ footer{
 
 /*Banner color violeta (chica con gafas debajo del menú de navegaciçón*/
 
-.instituto{
-    
-
+.instituto {
     display: inline-block;
     justify-content: center;
     width: 100%; 
     height: 500px;
- 
-    margin-top: 0; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagenes/i2.png);
+    margin-top: 0;
+    /* Combinar gradiente y imagen en una sola propiedad */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/imagenes/i2.png);
     background-size: cover;
+    background-position: center;
     text-align: left;
     color: white;
     padding: 180px 50px;
-
 }
+
 
 
 
@@ -311,3 +310,25 @@ h1 {
     transform: scale(1.1);  /* Aumenta ligeramente el tamaño cuando se pasa el mouse */
 }
 
+.card-title-estilo {
+    font-size: 1.25rem; /* Tamaño de fuente */
+    color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
+    border-bottom: 2px solid #007bff; /* Borde inferior */
+    padding-bottom: 10px; /* Espacio entre el texto y el borde */
+    text-align: center; /* Centra el texto */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 15px; /* Espacio debajo del título */
+    letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+.card-title-sombra {
+    font-size: 1.25rem;
+    color: #007bff; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto */
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 10px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 15px;
+}
