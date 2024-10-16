@@ -266,3 +266,16 @@ body{
     transform: scale(1.1);  
 
 }
+
+
+.carrusel-img {
+    height: 400px; /* Ajusta la altura a tu preferencia */
+    width: 100%; /* Ajusta el ancho al contenedor */
+    object-fit: cover; /* Mantiene la relación de aspecto */
+}
+
+@media (max-width: 768px) {
+    .carrusel-img {
+        height: 250px;
+    }
+}
