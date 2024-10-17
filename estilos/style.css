@@ -59,24 +59,37 @@
 
   /* Color de fondo dinámico en la lista del curso */
   .list-group-item-primary {
-    background-color: #007bff; /* Azul Bootstrap */
+    background-color: #007bff;
     color: white;
-  }
+}
 
-  .list-group-item-info {
-    background-color: #17a2b8; /* Azul claro Bootstrap */
+.list-group-item-info {
+    background-color: #17a2b8;
     color: white;
-  }
+}
 
-  /* Espacio extra para la lista de cursos */
-  .list-group-item {
-    margin-bottom: 10px;
-  }
+.list-group-item .badge {
+    font-size: 0.9rem; /* Para hacer los badge un poco más grandes o pequeños */
+}
 
-  /* Mejora en los íconos */
-  .list-group-item i {
-    margin-right: 10px;
-  }
+.list-group-item i {
+    margin-right: 8px; /* Un espacio entre el ícono y el texto */
+}
+
+.list-group-item {
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 10px; /* Espacio entre elementos */
+  padding: 15px; /* Aumentar el espacio dentro del item */
+}
+
+.badge-custom {
+  background-color: #ff5733; /* Un color naranja personalizado */
+  color: black; /* Cambia el color del texto */
+  font-size: 0.9rem; /* Ajusta el tamaño de la fuente si es necesario */
+  padding: 0.4em 0.8em; /* Añade algo de espacio alrededor del texto */
+  border-radius: 0.25rem; /* Bordes redondeados */
+}
+
 
   .img-size {
     width: 200px; /* Ajusta a las dimensiones que prefieras */
