@@ -96,3 +96,63 @@
     height: 200px;
     object-fit: cover; /* Esto mantiene las proporciones y evita que las imágenes se deformen */
 }
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.curso {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#carrito {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.borrar-curso {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#vaciar-carrito {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
