@@ -1,3 +1,24 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdownSubmenus = document.querySelectorAll('.dropdown-submenu');
+
+    dropdownSubmenus.forEach((submenu) => {
+        submenu.addEventListener('mouseenter', () => {
+            const subDropdown = submenu.querySelector('.dropdown-menu');
+            if (subDropdown) {
+                subDropdown.classList.add('show');
+            }
+        });
+
+        submenu.addEventListener('mouseleave', () => {
+            const subDropdown = submenu.querySelector('.dropdown-menu');
+            if (subDropdown) {
+                subDropdown.classList.remove('show');
+            }
+        });
+    });
+});
+
+
 // Efecto de scroll suave en los enlaces
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

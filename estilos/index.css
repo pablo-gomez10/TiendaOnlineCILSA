@@ -204,7 +204,7 @@ footer{
 
 
  /* Efecto hover específico para los items del menú desplegable */
- .dropdown-menu .dropdown-item:hover {
+.dropdown-menu .dropdown-item:hover {
     background-color: blueviolet;
     color: white !important;
 }
@@ -214,7 +214,7 @@ footer{
 
 
  /* Estilos para el submenú */
- .dropdown-submenu {
+.dropdown-submenu {
     position: relative;
 }
 
@@ -232,15 +232,14 @@ footer{
 
 
  /* Efecto hover para el botón de búsqueda */
- .btn-outline-light:hover {
+.btn-outline-light:hover {
     background-color: blueviolet  !important;
     color: white !important;
 }
 
    /* Quitar el color azul del campo de búsqueda al hacer clic */
-   .form-control:focus {
+.form-control:focus {
     box-shadow: none !important; /* Quita la sombra azul */
-   
 }
 
 
@@ -343,4 +342,23 @@ h1 {
     .carrusel-img {
         height: 250px;
     }
+}
+
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
