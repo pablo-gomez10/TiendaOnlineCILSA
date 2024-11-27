@@ -1,0 +1,26 @@
+my-express-app/
+├── controllers/       # Controladores: Manejan la lógica del negocio y las respuestas
+│   └── userController.js
+│   └── productController.js
+│
+├── models/            # Modelos: Aquí irían las funciones que interactúan con la base de datos
+│   └── userModel.js
+│   └── productModel.js
+│
+├── routes/            # Rutas: Mapean las URLs con los controladores correspondientes
+│   └── userRoutes.js
+│   └── productRoutes.js
+│
+├── views/             # Vistas: Archivos EJS que renderizan HTML
+│   └── index.ejs
+│   └── userProfile.ejs
+│
+├── public/            # Archivos estáticos: CSS, JS, imágenes
+│   └── images/
+│       └── logo.png
+│   └── css/
+│       └── styles.css
+│
+├── app.js             # Configuración principal de la aplicación
+├── package.json       # Información del proyecto y dependencias
+└── ...                # Otros archivos como .gitignore, README.md, etc.
