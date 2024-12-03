@@ -1,0 +1,165 @@
+<span class="utilities-container d-inline-block">
+		<div id="ajax-cart" class="cart-summary" data-component="cart-button">
+			<a href="#" data-toggle="#modal-cart" data-modal-url="modal-fullscreen-cart" class="js-modal-open js-fullscreen-modal-open btn btn-utility position-relative pr-0">
+				<svg class="icon-inline utilities-icon cart-icon"><use xlink:href="#bag"></use></svg>
+				<span class="js-cart-widget-amount badge">0</span>
+			</a>	
+		</div>
+</span>
+
+
+
+<div class="pt-md-3 ">
+    <section class="page-header  text-center text-md-left" data-store="page-title">
+			
+        <div class="breadcrumbs ">
+            <a class="crumb" href="https://nordikadesign.mitiendanube.com" title="NORDIKA_design">Inicio</a>
+            <span class="separator">.</span>
+                        <a class="crumb" href="/posavelas" title="POSAVELAS">POSAVELAS</a>
+                        <span class="separator">.</span>
+                        <a class="crumb" href="/posavelas/negro" title="negro">negro</a>
+                        <span class="separator">.</span>
+                        <span class="crumb active">SET POSAVELAS</span>
+        </div>
+        <h1 class="h2 js-product-name h4 h2-md mb-2" data-store="product-name-244469928">SET POSAVELAS</h1>
+    </section>
+        
+    
+    
+    
+    <div class="price-container text-center text-md-left " data-store="product-price-244469928">
+        <div class="mb-4 mb-md-3">
+            <span class="d-inline-block">
+                <div class="js-price-display" id="price_display" data-product-price="2000000">$20.000,00</div>
+            </span>
+            <span class="d-inline-block">
+               <div id="compare_price_display" class="js-compare-price-display price-compare" style="display:none;"></div>
+            </span>
+        </div>
+        <div data-toggle="#installments-modal" data-modal-url="modal-fullscreen-payments" class="js-modal-open js-fullscreen-modal-open js-product-payments-container mb-3">
+            <div class="js-max-installments-container js-max-installments mb-2 font-small">	
+		        <div class="js-max-installments product-installments">
+                    <span class="js-installment-amount product-installment-amount">12</span>
+                    <span> cuotas de</span>
+                    <span class="js-installment-price product-installment-value">$2.273,33</span>
+                </div>
+		    </div>
+            <div class="js-product-discount-container mb-2 font-small" style="display: none;">
+                <span class="text-accent">0% de descuento</span> pagando con 
+                <div class="js-product-discount-disclaimer font-small opacity-60 mt-1" style="display: none;">
+                    No acumulable con otras promociones
+                </div>
+            </div>
+            <a id="btn-installments" class="btn-link no-underline font-small">Ver más detalles</a>
+        </div>
+    </div>
+    <form id="product_form" class="js-product-form mt-4" method="post" action="/comprar/" data-store="product-form-244469928">
+        <input type="hidden" name="add_to_cart" value="244469928">
+        <div class=" text-center text-md-left text-accent mb-3">¡No te lo podes perder! ♥</div>
+        <div class="row mb-4">
+            <div class="col-4 pr-0 pr-md-3">
+                <div class="form-group js-quantity form-quantity form-quantity-product">
+                    <div class="form-row m-0 align-items-center" data-component="product.quantity">
+                        <span class="js-quantity-down form-quantity-icon btn icon-35px font-small" data-component="product.quantity.minus">
+                            <svg class="icon-inline"><use xlink:href="#minus"></use></svg>
+                        </span>
+                        <div class="form-control-container col px-0" data-component="product.adding-amount">
+                            <input type="number" class=" form-control js-quantity-input form-control-big form-control-inline" autocorrect="off" autocapitalize="off" pattern="\d*" name="quantity" value="1" min="1" aria-label="Cambiar cantidad" data-component="adding-amount.value">
+                        </div>
+                        <span class="js-quantity-up form-quantity-icon btn icon-35px font-small" data-component="product.quantity.plus">
+                            <svg class="icon-inline"><use xlink:href="#plus"></use></svg>
+                        </span>
+                    </div>
+                </div>
+            </div>                                                
+            <div class="col-8 pl-md-0 buy-button-container">
+                <input type="submit" class="js-addtocart js-prod-submit-form btn-add-to-cart btn btn-primary btn-big btn-block cart" value="Agregar al carrito" data-store="product-buy-button" data-component="product.add-to-cart" data-prev-visibility="inline-block" style="display: block;">
+                <div class="js-addtocart js-addtocart-placeholder btn btn-primary btn-block btn-transition btn-big disabled" data-prev-visibility="block" style="display: none;">
+                    <div class="d-inline-block">
+                        <span class="js-addtocart-text" data-prev-visibility="inline" style="display: inline;">Agregar al carrito</span>
+                            <span class="js-addtocart-success transition-container">
+                                ¡Listo!
+                            <svg class="icon-inline font-body"><use xlink:href="#check"></use></svg>
+                        </span>
+                        <div class="js-addtocart-adding transition-container transition-icon">
+                            Agregando
+                            <svg class="icon-inline icon-spin icon-w-2em ml-1"><use xlink:href="#spinner-third"></use></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="js-added-to-cart-product-message font-small mt-2 mb-3" style="">
+                    <span>
+                        Ya agregaste este producto.<a href="#" class="js-modal-open js-open-cart js-fullscreen-modal-open btn-link font-small ml-1 text-center text-md-left" data-toggle="#modal-cart" data-modal-url="modal-fullscreen-cart">Ver carrito</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4 ">
+            <div id="product-shipping-container" class="product-shipping-calculator list" data-shipping-url="/envio/">
+                <div data-store="shipping-calculator">
+	                <div class="js-shipping-calculator-head shipping-calculator-head position-relative transition-soft with-form">
+		                <div class="js-shipping-calculator-with-zipcode  w-100 transition-up position-absolute">
+			                <div class="row">
+				                <span class="col">
+					                <span class="font-small align-bottom">
+						                <span>Entregas para el CP:</span>
+						                <strong class="js-shipping-calculator-current-zip"></strong>
+					                </span>
+				                </span>
+				                <div class="col-auto col-btn">
+					                <a class="js-shipping-calculator-change-zipcode btn btn-link font-small float-right" href="#">Cambiar CP</a>
+				                </div>
+			                </div>
+		                </div>
+                        <div class="js-shipping-calculator-form shipping-calculator-form transition-up position-absolute w-100 transition-up-active">
+                            <div class="form-group mb-0">
+                                <div class="form-label">
+						            Medios de envío
+					            </div>
+					            <div class="position-relative">
+				                    <div class="form-control-container ">
+                                        <input type="tel" class=" form-control js-shipping-input form-control-big d-block form-control-inline" autocorrect="off" autocapitalize="off" name="zipcode" placeholder="Tu código postal" aria-label="Tu código postal">
+                    		            <input type="hidden" name="variant_id" id="shipping-variant-id" value="1074023298">
+						            </div>
+        				            <div class="js-calculate-shipping form-control-submit" aria-label="Calcular envío">	
+							            <span class="js-calculate-shipping-wording btn-link font-small">Calcular</span>
+							            <span class="loading mr-1" style="display: none;">
+								            <svg class="icon-inline icon-spin icon-w-2em icon-md ml-2"><use xlink:href="#spinner-third"></use></svg>
+							            </span>
+						            </div>
+				                </div>
+			                    <a class="btn-link font-small mt-2 mb-2 d-inline-block  js-shipping-zipcode-help " href="https://www.correoargentino.com.ar/formularios/cpa" target="_blank">No sé mi código postal</a>
+				                <div class="js-ship-calculator-error invalid-zipcode alert alert-danger mt-2" style="display: none;">No encontramos este código postal. ¿Está bien escrito?</div>
+				                <div class="js-ship-calculator-error js-ship-calculator-common-error alert alert-danger mt-2" style="display: none;">Ocurrió un error al calcular el envío. Por favor intentá de nuevo en unos segundos.</div>
+				                <div class="js-ship-calculator-error js-ship-calculator-external-error alert alert-danger mt-2" style="display: none;">El calculo falló por un problema con el medio de envío. Por favor intentá de nuevo en unos segundos.</div>
+				            </div>
+                        </div>
+                    </div>
+                    <div class="js-shipping-calculator-spinner pt-3 pb-4" style="display: none;">
+                        <div class="row no-gutters mx-0 mb-4">
+                            <div class="col">
+                                <div class="placeholder-line placeholder-color placeholder-shine position-relative mb-3 col-10 col-md-8"></div>
+                                <div class="placeholder-line placeholder-color placeholder-shine position-relative col-6 col-md-3"></div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="placeholder-line placeholder-shipping-price placeholder-color placeholder-shine position-relative"></div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters mx-0">
+                            <div class="col">
+                                <div class="placeholder-line placeholder-color placeholder-shine position-relative mb-3 col-10 col-md-8"></div>
+                                <div class="placeholder-line placeholder-color placeholder-shine position-relative col-6 col-md-3"></div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="placeholder-line placeholder-shipping-price placeholder-color placeholder-shine position-relative"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="js-shipping-calculator-response transition-soft list " style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

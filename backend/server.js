@@ -13,7 +13,7 @@ const cursos = [
 ];
 
 // Ruta para obtener los cursos
-app.get('/api/courses', (req, res) => {
+app.get('/routes/courses', (req, res) => {
     res.json(cursos);
 });
 
@@ -21,6 +21,11 @@ app.get('/api/courses', (req, res) => {
 //     res.send('Bienvenido a la API de TiendaOnlineCILSA');
 // });
 
+// Endpoint para manejar solicitudes POST en la ruta de '/dbCodigoArgentino'
+app.post ('/dbCodigoArgentino', (req,res) =>{
+    const dbCodigoArgentino = req.body;  // Suponiendo que estás usando middleware para parsear JSON
+    res.status (201).json({mensaje: 'curso creado', cursos});
+});
 
 // Iniciar el servidor
 const PORT = 3000;

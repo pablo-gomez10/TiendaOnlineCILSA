@@ -88,7 +88,7 @@ footer{
     height: 500px;
     margin-top: 0;
     /* Combinar gradiente y imagen en una sola propiedad */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/imagenes/i2.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/frontend/public/imagenes/i2.png);
     background-size: cover;
     background-position: center;
     text-align: left;

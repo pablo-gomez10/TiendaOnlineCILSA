@@ -48,6 +48,42 @@ function mostrarCursos(cursos) {
 
 // Función para agregar un curso al carrito
 function agregarAlCarrito(cursoId) {
-    console.log(`Curso agregado al carrito: ${cursoId}`);
-    // Aquí podrías implementar la lógica para actualizar el carrito en el frontend o enviar una solicitud al backend.
+    // Ejemplo de datos de los cursos (esto podría venir de tu backend o ser dinámico en tu aplicación)
+    const cursosDisponibles = {
+        BICILSA2024: {
+            id: 'addToCartButton',
+            name: 'Curso Analísis de Datos en Power Bi 2024',
+            price: 45000,
+        },
+        // Agrega más cursos aquí si es necesario
+    };
+
+    // Obtener el curso seleccionado
+    const curso = cursosDisponibles[cursoId];
+
+    if (!curso) {
+        console.error(`Curso con ID ${cursoId} no encontrado.`);
+        return;
+    }
+
+    // Obtener carrito actual de LocalStorage o inicializarlo
+    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+    // Verificar si el curso ya está en el carrito
+    const cursoExistente = carrito.find(item => item.id === curso.id);
+
+    if (cursoExistente) {
+        // Incrementar la cantidad si ya existe en el carrito
+        cursoExistente.quantity += 1;
+    } else {
+        // Agregar el curso al carrito
+        carrito.push({ ...curso, quantity: 1 });
+    }
+
+    // Guardar el carrito actualizado en LocalStorage
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+
+    // Confirmación al usuario
+    console.log(`Curso "${curso.name}" agregado al carrito.`);
+    alert(`Curso "${curso.name}" agregado al carrito.`);
 }

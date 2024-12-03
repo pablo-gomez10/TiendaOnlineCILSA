@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle del Curso de Analísis de Datos con Power Bi</title>
-    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/frontend/public/estilos/style.css">
     <!-- Enlace a Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
@@ -54,22 +54,22 @@
                             <div class="row">
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://github.com/LucreciaMichel" target="_blank" rel="noopener" aria-label="GitHub">
-                                        <img src="/frontend/public/imagenes/github-logo (32 x 32).jpg (32 x 32).jpg (32 x 32).jpg" alt="GitHub">                                        
+                                        <img src="/frontend/public/imagenes/github-logo (32 x 32).jpg" alt="GitHub">                                        
                                     </a>
                                 </div>
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://www.linkedin.com/in/lucrecia-michel/" target="_blank" rel="noopener" aria-label="Linkedin">
-                                        <img src="/frontend/public/imagenes/linkedin-logo (32 x 32).jpg (32 x 32).jpg" alt="Linkedin"> 
+                                        <img src="/frontend/public/imagenes/linkedin-logo (32 x 32).jpg" alt="Linkedin"> 
                                     </a>
                                 </div>
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="mailto:lucrecia.a.michel@gmail.com" target="_blank" rel="noopener" aria-label="email">
-                                        <img src="/frontend/public/imagenes/mail-logo (32 x 32).jpg (32 x 32).jpg" alt="email"> 
+                                        <img src="/frontend/public/imagenes/mail-logo (32 x 32).jpg" alt="email"> 
                                     </a>
                                 </div>                                  
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://wa.me/5493442463368" target="_blank" rel="noopener" aria-label="WhatsApp">
-                                        <img src="/frontend/public/imagenes/whatsapp-logo (32 x 32).jpg (32 x 32).jpg" alt="WhatsApp"> 
+                                        <img src="/frontend/public/imagenes/whatsapp-logo (32 x 32).jpg" alt="WhatsApp"> 
                                     </a>
                                 </div>
                             </div>                            
@@ -86,22 +86,22 @@
                             <div class="row">
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://github.com/ericCirimarco" target="_blank" rel="noopener" aria-label="GitHub">
-                                        <img src="/frontend/public/imagenes/github-logo (32 x 32).jpg (32 x 32).jpg (32 x 32).jpg" alt="GitHub">                                        
+                                        <img src="/frontend/public/imagenes/github-logo (32 x 32).jpg" alt="GitHub">                                        
                                     </a>
                                 </div>
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://www.linkedin.com/in/eric_cirimarco" target="_blank" rel="noopener" aria-label="Linkedin">
-                                        <img src="/frontend/public/imagenes/linkedin-logo (32 x 32).jpg (32 x 32).jpg" alt="Linkedin"> 
+                                        <img src="/frontend/public/imagenes/linkedin-logo (32 x 32).jpg" alt="Linkedin"> 
                                     </a>
                                 </div>
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="mailto:eric-cirimarco@gmail.com" target="_blank" rel="noopener" aria-label="email">
-                                        <img src="/frontend/public/imagenes/mail-logo (32 x 32).jpg (32 x 32).jpg" alt="email"> 
+                                        <img src="/frontend/public/imagenes/mail-logo (32 x 32).jpg" alt="email"> 
                                     </a>
                                 </div>                                  
                                 <div class="col-sm-3">
                                     <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://wa.me/5493427890847" target="_blank" rel="noopener" aria-label="WhatsApp">
-                                        <img src="/frontend/public/imagenes/whatsapp-logo (32 x 32).jpg (32 x 32).jpg" alt="WhatsApp"> 
+                                        <img src="/frontend/public/imagenes/whatsapp-logo (32 x 32).jpg" alt="WhatsApp"> 
                                     </a>
                                 </div>
                             </div>                            
@@ -153,8 +153,14 @@
 
                 <!-- Botón de compra -->
                 <div class="my-3">
-                    <button class="btn btn-success btn-lg color-button" onclick="window.location.href='../contact.html'">Inscribirme ahora</button>
+                    <button class="btn btn-success btn-lg color-button" onclick="window.location.href='/frontend/views/contact.html'">Inscribirme ahora</button>
                 </div>
+
+                <!-- Botón para agregar al carrito -->
+                <div class="my-3">
+                    <button id="addToCartButton" class="btn btn-primary btn-lg color-button">Agregar al Carrito</button>
+                </div>
+
 
 
                 <p class="text-muted">Código del curso: BICILSA2024</p>
@@ -188,13 +194,13 @@
                     <p>Este curso fue seleccionado para nuestra colección de cursos mejor calificados en los que confían empresas de todo el mundo.</p>
                     <div class="row div-style">
                         <div class="col-md-4">
-                            <img src="/imagenes/netflix_logo (64 x 64).png" alt="Netflix">
+                            <img src="/frontend/public/imagenes/netflix_logo (64 x 64).png" alt="Netflix">
                         </div>
                         <div class="col-md-4">
-                            <img src="/imagenes/sony_logo (64 x 64).png" alt="Sony">
+                            <img src="/frontend/public/imagenes/sony_logo (64 x 64).png" alt="Sony">
                         </div>
                         <div class="col-md-4">
-                            <img src="/imagenes/visa_logo (64 x 64).png" alt="Visa">
+                            <img src="/frontend/public/imagenes/visa_logo (64 x 64).png" alt="Visa">
                         </div>
                         <div class="col-md-4"></div>
                            
